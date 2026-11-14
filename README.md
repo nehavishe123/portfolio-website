@@ -46,3 +46,4 @@ Search for `your-email@example.com` and `https://github.com/` to find placeholde
 - [ ] Upload the three files to a public GitHub repository.
 - [ ] Enable GitHub Pages and test the live link.
 - [ ] Submit the repository URL and live website URL if your internship asks for both.
+- [ ] My personal portfolio website for the Front-End Development internship.
