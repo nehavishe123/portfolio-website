@@ -1,49 +1,55 @@
-# Neha Vishe — Portfolio Website
+# Neha Vishe — Neon Purple Portfolio
 
-A responsive, single-page portfolio built with **HTML5 and CSS3 only**, based on the SyntecXHub Front-End Development internship task.
+Responsive personal portfolio made with HTML5 and CSS3. No JavaScript framework or build tools are required.
 
 ## Files
 - `index.html` — page content and sections
-- `style.css` — colors, layout, responsive styles, hover effects
+- `style.css` — theme, layout, responsive design and animations
+- `profile-placeholder.svg` — temporary avatar shown until you add your photo
+- `README.md` — this guide
 
-## Run locally
-1. Download and extract this project folder.
-2. Open the folder.
-3. Double-click `index.html` to open it in your browser.
+## Add your profile photo
+1. Copy a clear photo into this folder (beside `index.html`).
+2. Rename it exactly `profile.jpg`.
+3. Refresh the website. It will replace the placeholder automatically.
+If your photo is PNG, change `profile.jpg` in the image tag in `index.html` to your exact filename.
 
-You can also open the folder in Visual Studio Code and use the Live Server extension.
+## Personalize the content
+Open `index.html` in VS Code. Use Ctrl+F to find and replace:
+- `YOUR_EMAIL@example.com` with your email address.
+- `https://www.linkedin.com/` with your LinkedIn profile URL.
+- Sample project links with direct links to your project repositories.
+Edit the About, skills, project and achievement text to keep it accurate. The skill bars are illustrative only; adjust their widths if you want.
 
-## Before publishing — personalize these details
-Open `index.html` and update:
-- The About text and location if needed.
-- Project descriptions and project links.
-- `your-email@example.com` with your preferred contact email.
-- LinkedIn and GitHub profile URLs.
-- Skills to match what you can confidently discuss.
+## Preview locally
+Open this folder in VS Code and open `index.html` with Live Server, or double-click `index.html` in File Explorer.
 
-Search for `your-email@example.com` and `https://github.com/` to find placeholders quickly.
+## Update your EXISTING GitHub repository
+Repository: https://github.com/nehavishe123/portfolio-website
 
-## Upload to GitHub
-1. Sign in at https://github.com/ and click **New repository**.
-2. Name it `portfolio-website`.
-3. Choose **Public**, then click **Create repository**.
-4. On the new repository page, choose **Add file → Upload files**.
-5. Upload `index.html`, `style.css`, and `README.md` (upload the files inside this folder, not just the ZIP).
-6. Enter a commit message such as `Add responsive portfolio website`.
+1. Open the repository and stay on the Code tab, branch `main`.
+2. Choose **Add file → Upload files**.
+3. Upload the individual files from this folder: `index.html`, `style.css`, `profile-placeholder.svg`, and `README.md`.
+4. After adding your own photo, also upload `profile.jpg`.
+5. Existing files with the same names will be replaced when you commit the changes.
+6. Enter commit message: `Upgrade portfolio with neon purple design`.
 7. Click **Commit changes**.
 
-## Publish with GitHub Pages
-1. Open your repository on GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main** and folder **/(root)**.
-5. Click **Save**.
-6. Wait a few minutes, then refresh the Pages settings page. GitHub will show your live website link, usually `https://YOUR-USERNAME.github.io/portfolio-website/`.
+Do not create a new repository and do not upload only the ZIP file. GitHub Pages is already configured for `main` and `/(root)`, so it should publish automatically after the commit.
 
-## Internship submission checklist
-- [ ] Replace placeholder contact and social links.
-- [ ] Check the page on desktop and mobile.
-- [ ] Upload the three files to a public GitHub repository.
-- [ ] Enable GitHub Pages and test the live link.
-- [ ] Submit the repository URL and live website URL if your internship asks for both.
-- [ ] My personal portfolio website for the Front-End Development internship.
+## Verify publication
+1. Open the repository's Actions tab.
+2. Wait for `pages build and deployment` to show a green check.
+3. Visit https://nehavishe123.github.io/portfolio-website/
+4. If the old design remains visible, press Ctrl + Shift + R to hard-refresh.
+
+## Checklist
+- [ ] Add `profile.jpg`
+- [ ] Replace email placeholder
+- [ ] Add your LinkedIn profile URL
+- [ ] Replace sample project links
+- [ ] Verify achievement details
+- [ ] Preview desktop and mobile
+- [ ] Upload updated files to existing repository
+- [ ] Confirm green check in Actions
+- [ ] Test the live site
